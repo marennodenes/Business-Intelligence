@@ -1,4 +1,4 @@
-# Week 3 – Cross-Cultural Market Basket Analysis
+# Week 3: Cross-Cultural Market Basket Analysis
 
 **Research question:** Does the rule **Dates → Milk** behave differently during **Ramadan** than in **baseline** (non-event) baskets in Istanbul and Dubai?
 
@@ -52,5 +52,5 @@
 | `MIN_SUPPORT` | 0.05 (same for both groups) |
 | `MIN_CONFIDENCE` | 0.3 (same for both groups) |
 | Algorithm | Apriori (`mlxtend.frequent_patterns`) |
-| Seed | 42 – set for completeness; Apriori is deterministic, so results do not depend on it. The dataset itself was generated with seed 20260916. |
+| Seed | 42. Apriori is deterministic, so the results do not depend on it. The dataset itself was generated with seed 20260916. |
 | Missing values | Read with `keep_default_na=False` so `"None"` stays a real category |
