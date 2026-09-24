@@ -1,0 +1,4 @@
+Context (Dates → Milk),N,N with Dates,N with Dates & Milk,Support,Confidence,Lift
+Ramadan,99,43,32,0.3232,0.7442,1.5349
+Baseline,132,9,0,0.0,0.0,0.0
+Δ (Ramadan − Baseline),,,,0.3232,0.7442,1.5349
