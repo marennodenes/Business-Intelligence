@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Office lock files (created while a file is open in Excel/Word)
+~$*
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
